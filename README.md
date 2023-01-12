@@ -34,6 +34,5 @@ class Mazimi(ME):
             drink_coffe()
             code()
             sleep()
-    
-}
+
 ```
