@@ -11,7 +11,7 @@
 
 ```python
 from humans import status
-from datetime import date , timedelta
+from datetime import date
 
 
 class Mazimi(ME):
