@@ -13,6 +13,8 @@
 from humans import status
 from datetime import date
 from past import memories
+from routines import create_good_memories , wake_up , code , take_coffe , sleep 
+
 
 class Mazimi(ME):
     '''
@@ -55,7 +57,8 @@ class Mazimi(ME):
         
         return self.good_memories # When i pass away , only my good memories will remain :)
 
-    def test_sleep_hour(self , sleep_datetime , wakeup_datetime):
+    @classmethod
+    def test_sleep_hour(cls , sleep_datetime , wakeup_datetime):
         '''
         what will happen if my sleep quality be bad !?
         Args : 
