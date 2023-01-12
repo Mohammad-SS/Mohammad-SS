@@ -46,7 +46,7 @@ class Mazimi(ME):
 
             weekday = date.today().weekday()
             if weekday in ["3" , "4"] : # 3:Thursday and 4:Friday
-                self.good_memories.append(create_some_good_memories()) # Maybe a short trip :)
+                self.good_memories.append(create_good_memories()) # Maybe a short trip :)
                 continue
 
             wake_up()
