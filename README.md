@@ -54,11 +54,16 @@ class Mazimi(ME):
         
         return self.good_memories # When i pass away , only my good memories will remain :)
 
-    def test_sleep_hour(self):
+    def test_sleep_hour(self , sleep_datetime , wakeup_datetime):
         '''
         what will happen if my sleep quality be bad !?
+        Args : 
+         - sleep_datetime : datetime object
+         - wakeup_datetime : datetime object
         '''
-        assert timedelta(sleep_datetime) - timedelta(wakeup_datetime) > 7 , "Today you need to drink more coffe !"
+        sleep_quality = (sleep_datetime - wakeup_datetime).hours
+        assert sleep_quality > 7 , "Today I need to drink more coffe !"
+        assert sleep_quality < 10 , "I lost this day ! AZ SHANBE ISHALA :D"
     
 
 ```
