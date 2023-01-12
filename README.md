@@ -12,7 +12,7 @@
 ```python
 from humans import status
 from datetime import date
-
+from past import good_memories
 
 class Mazimi(ME):
     '''
@@ -23,6 +23,7 @@ class Mazimi(ME):
     middle_name = "Bagher"
     last_name = "Azimi"
     alias = "MAzimi"
+    personality = "ESTJ" # Based on MBTI test 
 
     # Skills 
     main_skills = ["Python" , "Django" , "DRF" ]
@@ -32,7 +33,7 @@ class Mazimi(ME):
     # Trivia ! 
     time_zone = "Asia/Tehran"
     goal = "Be Happy ! Any where , Any Time !"
-    good_memories = []
+    good_memories = good_memories # You wish i write my memories here , Huh !? Dude Respect my privacy !
 
     def life_cycle(self):
         '''
