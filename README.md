@@ -13,7 +13,7 @@
 from humans import status
 from datetime import date
 from past import memories
-from routines import create_good_memories , wake_up , code , take_coffe , sleep 
+from routines import create_good_memories , wake_up , code , drink_coffe , sleep 
 
 
 class Mazimi(ME):
