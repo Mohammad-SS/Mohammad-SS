@@ -30,7 +30,7 @@ class Mazimi(ME):
     # Skills 
     main_skills = ["Python" , "Django" , "DRF" ]
     secondary_skills = ["HTML","CSS" , "JS" , "PHP" , "Docker" ]
-    used_to_be = ["Freelancer" ,"Fullstack Developer in Esra and Apptech"]
+    used_to_be = ["Freelancer" ,"Backend Developer at Esra" , "Senior Backend Developer at Apptec"]
 
     # Trivia ! 
     time_zone = "Asia/Tehran"
